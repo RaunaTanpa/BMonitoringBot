@@ -1,0 +1,8 @@
+version: '3'
+services:
+  supportbot:
+    # build: .
+    image: "RaunaTanpa/BMonitoringBot:latest"
+    restart: unless-stopped
+    volumes:
+      - ${PWD}/config:/BMonitoringBot/config
