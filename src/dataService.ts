@@ -1,6 +1,6 @@
 const fs = require('fs');
 const diskusage = require('diskusage');
-var usrFileName = './users.json';
+var usrFileName = '../users.json';
 
 var users = {};
 var fileLocked = false;
